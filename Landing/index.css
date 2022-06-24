@@ -1,0 +1,124 @@
+#grid-col {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+
+}
+
+
+.wholecell {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background: lightblue;
+        padding: 170px;
+        background-image: url(/Landing/Program.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+        
+.wholecell h1 {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        padding: 60px;
+}
+
+.wholecell p {
+        text-align: center;
+        color: white;
+}
+
+.button {
+        border: 1px black dotted;
+        background-color: rgb(53, 45, 45);
+        color: white;
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        left: 45%;
+        border-radius: 6px;
+}
+
+.button:hover {
+        background-color: white;
+        color: black;
+}
+
+.cell1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background: white;
+        width: 100%;
+        height: 200px;
+}
+
+.cell1 h2{
+        position: relative;
+        top: -10px;
+        text-align: center;
+        font-size: 40px;
+}
+
+.cell1 p {
+        position: relative;
+        top: -10px;
+        margin: 0 50px;
+        font-size: 20px;
+}
+#cell2  {
+        background: #3d3d3d;
+        color: white;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+}
+.lang {
+        width: 50px;
+        height: 100px;
+        padding: 100px;
+        border: pink;
+        color: black;
+        background-color: white;
+        margin: 20px 0;
+        background-image: url(/Landing/html.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+}
+.lang2 {
+        width: 60px;
+}
+.lang3 {
+        width: 50px;
+        height: 100px;
+        padding: 100px;
+        border: pink;
+        color: black;
+        background-color: white;
+        margin: 20px 0;
+        background-image: url(/Landing/CSS2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 65%;
+}
+#cell2 p{
+        position: relative;
+        text-align: left;
+}
+
+.til {
+        margin-top: 130px;
+        color: black;
+}
+.til:hover {
+        color: red;
+        transition: color 500ms ease-in-out;
+}
+.cell3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background: pink;
+        padding: 100px;
+        text-align: center;
+}
